@@ -1,0 +1,324 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #f8f8fa;
+}
+
+header{
+  background-color: #4516fe;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right:5%;
+  padding-top: 2%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+.nav-item{
+  margin-right: 2%;
+  padding: 8px;
+}
+.nav-item:hover{
+  margin-right: 2%;
+  cursor: pointer;
+  background-color: #fff;
+  color: #4516fe;
+  padding: 8px;
+}
+.logo{
+  margin-left: 4%;
+}
+
+.head-img-div{
+  float:right;
+}
+.header-image{
+    width: 45vw;
+    height: auto;
+}
+.header-text{
+  width: 45vw;
+  margin-left: 4%;
+  color: #fff;
+  font-size: 26px;
+  display: inline-block;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  vertical-align: middle;
+}
+.head-content{
+  margin-top: 1%;
+  font-size: 20px;
+}
+
+.companies{
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.company-items{
+  text-decoration: none;
+  color: #000;
+  margin-left: 4%;
+  padding-right: 4px;
+}
+
+.api-heading{
+  margin-top: 4%;
+  margin-left: 4%;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: 4%;
+}
+.card{
+  width: 15%;
+  margin: 8px;
+  padding: 32px 16px;
+}
+.card:hover{
+  width: 15%;
+  margin: 8px;
+  padding: 32px 16px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 8px -8px 17px #cccccc;
+  cursor: pointer;
+}
+.card-logo{
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.card-head{
+  height: 3em;
+}
+.card:hover .card-head{
+  color:#4516fe
+}
+.slide-gt{
+  background-color: #4516fe;
+  padding: 0px 16px;
+  border-radius: 50%;
+  color: #fff;
+  margin: 12px;
+  float: right;
+  cursor: pointer;
+}
+.slide-gt:hover{
+  background-color: rgb(255, 255, 255);
+  color: #4516fe;
+  border: 1px #4516fe solid;
+}
+
+.blog-heading{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4%;
+  margin-right: 4%;
+  align-items: flex-end;
+}
+h1.blog-hd-text {
+  font-weight: 900;
+  font-size: 40px;
+}
+h3.see-all {
+  color: #4516fe;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+.blog-cards{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.blog-card{
+  display: flex;
+  margin-right: 4%;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+.blog-div{
+    background-color: #fff;
+    border-radius: 0px 16px 16px 0px;
+    padding-left: 24px;
+    padding-right: 16px;
+    box-shadow: 2px 2px #cdcdcf;
+}
+.blog-content{
+  padding:16px;
+}
+.blog-content h6{
+  color:#4516fe;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.blog-content h3{
+  padding-bottom: 16px;
+}
+.blog-content small{
+  display: block;
+  padding-bottom: 16px;
+}
+.blog-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  bottom: -16px;
+  margin-right: 32px;
+}
+.blog-card-bottom-image{
+  border: 2px #fff solid;
+  border-radius: 50%;
+  box-shadow: 0px 2px #cdcdcf;
+}
+b.blog-author {
+  font-size: 14px;
+  padding: 8px 8px 12px 16px;
+}
+
+.faq-section{
+  background-color: #e9edff;
+  display: flex;
+  justify-content: space-between;
+}
+.faq-content{
+  padding-right: 4%;
+  padding-left: 4%;
+  margin: 2% 0 4%;
+}
+h1.faq-hd-text {
+  font-weight: 900;
+  font-size: 40px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+.faq-content h4{
+  font-size: 12px;
+  font-weight: 400;
+}
+.faq-ques{
+  font-size: 16px !important;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  font-weight: 900 !important;
+}
+.contact-us{
+  background-color: #4516fe;
+  color: #fff;
+  padding: 8px 16px;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.download-section{
+  display: flex;
+  padding: 8% 4%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.download-content h1{
+  font-size: 28px;
+  font-weight: 900;
+}
+.download-content span{
+  font-size: 32px;
+  font-weight: 100;
+}
+.download-email{
+  background-color: #e9edff;
+  border-radius: 32px;
+}
+.download-email form input{
+  width: 30vw;
+  min-width: 88px;
+  background-color: #e9edff;
+  font-size: 16px;
+  padding: 12px 4px 12px 28px;
+  border:0px #e9edff solid;
+  border-radius: 32px;
+}
+.download-email form input:focus-visible{
+  outline:0px #e9edff solid;
+}
+::placeholder { /* Chrome */
+  color: #000;
+  opacity: 1;  /*Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #000;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #000;
+}
+.download{
+  background-color: #4516fe;
+  color: #fff;
+  padding: 12px 32px;
+  border: 2px #4516fe solid;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.footer-section{
+  background-color: #4516fe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+}
+.list{
+  display: flex;
+  list-style-type: none;
+  width: 46vw;
+  color:#fff;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  opacity: 0.7;
+}
+.list-items{
+  padding-right: 4%;
+  display: inline-block;
+  cursor: pointer;
+}
+.footer-logos{
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-logo{
+  margin-right: 8%;
+  cursor: pointer;
+}
+.logos-list{
+  display: flex;
+  justify-content: flex-end;
+  width: 32vw;
+  color:#fff;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  opacity: 0.7;
+}
